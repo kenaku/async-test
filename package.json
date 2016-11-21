@@ -1,0 +1,13 @@
+{
+  "name": "asyn-test",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha main.test.js -w"
+  }
+}
